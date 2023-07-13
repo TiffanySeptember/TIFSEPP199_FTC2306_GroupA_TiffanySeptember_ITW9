@@ -1,0 +1,105 @@
+body {
+  margin: 40px;
+  background-color: #f8e5d2;
+}
+
+.hero {
+  background-image: url(../images/bgimage.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e5d2;
+  height: 100vh;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-text h3 {
+  margin: 15px 0;
+  font-size: 28px;
+}
+
+.hero-text p {
+  font-weight: bolder;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  margin-right: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social-links img {
+  width: 35px;
+}
+
+section {
+  margin-top: 80px;
+}
+
+.content-wrapper {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 80px;
+}
+
+.about-me .content-wrapper {
+  padding: 30px;
+}
+
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+article > h2 {
+  text-align: center;
+}
+
+.content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8a8c;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content-details {
+    padding: 20px;
+}
+
+h3,h4 {
+    margin: 0;
+}
+
+.content-details h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.content-details h4 {
+    font-size: 14px;
+    color: #5A5A5A;
+    text-transform: uppercase;
+}
