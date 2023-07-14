@@ -168,7 +168,10 @@
       <div class="contact">
         <div class="contact-form">
           <h3>Contact Form</h3>
-          <form>
+          <form
+            action="https://formsubmit.co/6cd1c80fed70b71c298b70a1aa83836c"
+            method="post"
+          >
             <label for="subject"><span>*</span>Subject</label>
             <select name="subject" required>
               <option value="" selected disabled>Select Subject</option>
@@ -183,6 +186,12 @@
             <input type="email" name="email" placeholder="Email" required />
             <label for="message"><span>*</span>Message</label>
             <textarea name="message" placeholder="Message" required></textarea>
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/thank-you.html"
+            />
+            <input type="hidden" name="_captcha" value="false" />
             <button type="submit">Send</button>
           </form>
         </div>
