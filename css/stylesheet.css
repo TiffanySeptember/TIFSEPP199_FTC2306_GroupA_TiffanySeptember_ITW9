@@ -344,9 +344,7 @@ h4 {
     padding: 20px;
   }
 
-  .contact-form input,
-  .contact-form textarea,
   .contact-form select {
-    width: 90%;
+    width: 88%;
   }
 }
