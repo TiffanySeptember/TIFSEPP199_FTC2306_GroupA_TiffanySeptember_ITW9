@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/stylesheet.css" />
-    <title>Resume</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900"
+      rel="stylesheet"
+    />
+    <title>Tiffany September Digital Resume</title>
   </head>
   <body>
     <header class="hero shadow">
       <div class="hero-text">
         <h1>Tiffany September</h1>
-        <h3>Web Developer</h3>
+        <h2>Web Developer</h2>
         <p>
           A CodeSpace student pursuing my studies in web development. Let's
           start scrolling and learn more about me.
@@ -88,7 +92,6 @@
           <div class="content-details">
             <h3>YES Learnership for Business Management</h3>
             <h4>Institute of Business Management & Information Technology</h4>
-
             <ul>
               <li>Business Management</li>
             </ul>
@@ -114,11 +117,121 @@
         </div>
       </article>
       <article class="skills">
-        <h2>Skills</h2>
-        <div class="content-wrapper shadow">
-          <div class="skills">HTML CSS GIT</div>
+        <h2>Skills & Tools</h2>
+        <div class="skills-wrapper shadow">
+          <div class="skill">
+            <div class="skill-text">HTML</div>
+            <div class="skill-image">
+              <img src="images/html5.png" alt="html" />
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-text">CSS</div>
+            <div class="skill-image">
+              <img src="images/css-3.png" alt="css" />
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-text">GIT</div>
+            <div class="skill-image">
+              <img src="images/git.png" alt="git" />
+            </div>
+          </div>
+          <div class="vertical-line">
+            <hr />
+          </div>
+          <div class="skill">
+            <div class="skill-text">VSCODE</div>
+            <div class="skill-image">
+              <img
+                src="images/visual_studio_code_icon_191771.png"
+                alt="vscode"
+              />
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-text">GITHUB</div>
+            <div class="skill-image">
+              <img src="images/github.png" alt="github" />
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-text">YOUTUBE</div>
+            <div class="skill-image">
+              <img src="images/youtube.png" alt="youtube" />
+            </div>
+          </div>
         </div>
       </article>
     </section>
+    <footer class="contact-wrapper shadow">
+      <div class="contact">
+        <div class="contact-form">
+          <h3>Contact Form</h3>
+          <form>
+            <label for="subject"><span>*</span>Subject</label>
+            <select name="subject" required>
+              <option value="" selected disabled>Select Subject</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Support">Support</option>
+              <option value="Sales">Sales</option>
+              <option value="Feedback">Feedback</option>
+            </select>
+            <label for="name"><span>*</span>Name</label>
+            <input type="text" name="name" placeholder="Name" required />
+            <label for="email"><span>*</span>Email</label>
+            <input type="email" name="email" placeholder="Email" required />
+            <label for="message"><span>*</span>Message</label>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-details">
+          <h3>Contact Information</h3>
+          <div class="details">
+            <div>
+              <h4>Address</h4>
+              <p>50 Buitenkant Street, City Center, Cape Town, 8000</p>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p>071 841 6489</p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>tiffanyseptember30@gmail.com</p>
+            </div>
+            <div class="socials">
+              <h4>Socials</h4>
+              <a
+                href="https://www.linkedin.com/in/tiffany-september-a48616234/"
+                target="_blank "
+              >
+                <img src="images/linkedin.png" alt="linkedin" />
+                LinkedIn
+              </a>
+              <a href="https://github.com/TiffanySeptember/" target="_blank ">
+                <img src="images/github.png" alt="github" />
+                Github
+              </a>
+              <a
+                href="https://instagram.com/_thee_snowcat420_"
+                target="_blank "
+              >
+                <img src="images/instagram.png" alt="instagram" />
+                Instagram
+              </a>
+              <a
+                href="https://facebook.com/tiffany.september.169/"
+                target="_blank "
+              >
+                <img src="images/facebook.png" alt="facebook" />
+                Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
